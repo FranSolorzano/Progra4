@@ -6,10 +6,10 @@ package alimentoshelados;
 
 /**
  *
- * @author ALUMNO
+ * @author HP-Notebook
  */
-public class Producto { 
-    private String nombre;
+public class Producto {
+     private String nombre;
     private String expire;
     private String lote;
 

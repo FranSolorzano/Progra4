@@ -6,11 +6,10 @@ package alimentoshelados;
 
 /**
  *
- * @author ALUMNO
+ * @author HP-Notebook
  */
 public class Fresco extends Producto{
-    
-    private String fechaEnvasado;
+     private String fechaEnvasado;
     private String paisOrigen;
 
     public Fresco(String nombre) 

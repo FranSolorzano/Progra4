@@ -6,11 +6,10 @@ package alimentoshelados;
 
 /**
  *
- * @author ALUMNO
+ * @author HP-Notebook
  */
 public class Refrigerado extends Producto{
-    
-    private String codigo;
+     private String codigo;
 
     public Refrigerado(String nombre) 
     {

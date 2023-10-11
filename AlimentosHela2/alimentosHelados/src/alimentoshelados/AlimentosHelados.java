@@ -23,9 +23,9 @@ public class AlimentosHelados {
         System.out.println("1-Productos Frescos ");
         System.out.println("2-Productos Refrigerados");
         System.out.println("3-Productos Congelados");
-        int opc = scanner.nextInt();
+        int opcion = scanner.nextInt();
         
-        switch (opc){
+        switch (opcion){
             case 1: 
                 Fresco productoFresco = new Fresco(nombre);
                 System.out.print("Ingrese la fecha de envasado: ");
@@ -55,6 +55,7 @@ public class AlimentosHelados {
             default:
                 System.out.println("Opcion no valida, vuelve a intentarlo");
         }
+        scanner.close();        
     }
     
 }

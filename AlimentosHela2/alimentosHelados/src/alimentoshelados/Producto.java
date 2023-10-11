@@ -9,7 +9,7 @@ package alimentoshelados;
  * @author ALUMNO
  */
 public class Producto { 
-     private String nombre;
+    private String nombre;
     private String expire;
     private String lote;
 
